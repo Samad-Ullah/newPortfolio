@@ -8,8 +8,8 @@ const nextConfig = {
     nextScriptWorkers: false,
   },
   images: {
-    unoptimized: false,
+    unoptimized: true,
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
