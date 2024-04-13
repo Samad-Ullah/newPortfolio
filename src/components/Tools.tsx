@@ -1,7 +1,5 @@
 import { FC } from "react";
-import { RiAdminFill, RiComputerLine, RiStrikethrough } from "react-icons/ri";
 import { FiArchive, FiDatabase } from "react-icons/fi";
-import { AiOutlineHeart } from "react-icons/ai";
 import { useAppSelector } from "../redux/reduxHooks";
 import { FaAnchor, FaStrikethrough } from "react-icons/fa";
 
@@ -28,9 +26,10 @@ const Tools: FC = () => {
           </h2>
           <ul className="list-disc text-white-300">
             <li>HTML, CSS, JavaScript,TypeScript</li>
-            <li>ReactJS, NextJS, </li>
+            <li>React.js, Next.js, </li>
+            <li>Jest.js, Cypress.js</li>
             <li>Redux Toolkit</li>
-            <li>SSR , CSR , SSG</li>
+            <li>SSR, CSR, SSG</li>
             <li>i18next</li>
             <li>
               FluentUI , TailwindCSS , Material UI , Bootstrap , AntDesign

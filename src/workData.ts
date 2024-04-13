@@ -1,7 +1,8 @@
 const projects = [
   {
     title: "Reeft",
-    techTitle: "React.js , JavaScript and Fluent UI",
+    techTitle:
+      "React.js , JavaScript , Jest(Test Driven Development) and Fluent UI",
     description:
       "REEFT achieve production optimization by digitizing the production and monitoring the production plant.",
     repoLink: "https://reeft.com/en/",
