@@ -8,6 +8,7 @@ import ScrollTop from "../components/ScrollTop";
 import dynamic from "next/dynamic";
 import { Partytown } from "@builder.io/partytown/react";
 import { FaLess } from "react-icons/fa";
+import { performance } from "perf_hooks";
 const LayoutGroup = dynamic(
   () => import("framer-motion").then((mod) => mod.LayoutGroup),
   {
